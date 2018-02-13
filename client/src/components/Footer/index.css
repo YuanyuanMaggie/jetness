@@ -1,0 +1,39 @@
+.customer-service-banner {
+    padding: 1rem;
+    margin-top: 0;
+    position: relative;
+    background-color: #360060;
+    color: #fff;
+    margin-top: 0;
+}
+
+.chat-image {
+    width: 42px;
+    height: 42px;
+    vertical-align: middle;
+    position: relative;
+    top: -5px;
+    cursor: pointer;
+}
+
+.divider {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.social{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+@media (min-width: 1024px){
+    .customer-service-banner {
+        padding: .5rem;
+    }
+
+    .chat-image {
+        width: 68px;
+        height: 68px;
+        position: absolute;
+        top: -34px;
+    }
+}
