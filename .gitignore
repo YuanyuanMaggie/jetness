@@ -1,7 +1,6 @@
 # dependencies
 /node_modules
 
-deploy-node.zip
-deploy-static.zip
+deploy.zip
 
 .DS_Store

@@ -4,14 +4,13 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": ">=6.9.1",
+    "node": "8.9.4",
     "npm": "3.10.10"
   },
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
-    "zip-node": "rm -rf deploy-node.zip && zip -r deploy-node.zip index.js Web.config package.json node_modules client/build",
-    "zip-static": "rm -rf deploy-static.zip && cd client/build && zip -r ../../deploy-static.zip *",
+    "zip": "rm -rf deploy.zip && cd client/build && zip -r ../../deploy.zip *",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server \" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --only=dev && npm install --prefix client && npm run build --prefix client"
