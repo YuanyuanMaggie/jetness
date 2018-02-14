@@ -34,6 +34,7 @@ class RecoMeals extends React.Component {
         let settings = {
             dots: false,
             infinite: false,
+            draggable: false,
             slidesToShow: 4,
             slidesToScroll: 1,
         };
@@ -73,6 +74,7 @@ class ReconWears extends React.Component {
         let settings = {
             dots: false,
             infinite: false,
+            draggable: false,
             slidesToShow: 5,
             slidesToScroll: 1,
         };
@@ -112,6 +114,7 @@ class ReconSupplyments extends React.Component {
         let settings = {
             dots: false,
             infinite: false,
+            draggable: false,
             slidesToShow: 6,
             slidesToScroll: 1,
         };

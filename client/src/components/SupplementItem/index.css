@@ -1,7 +1,7 @@
 .supplement-item {
   display: inline-block;
   margin: 20px;
-  width: 180px;
+  transform: scale(0.85);
   background: white;
 }
 
