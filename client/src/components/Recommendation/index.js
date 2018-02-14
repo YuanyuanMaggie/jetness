@@ -131,6 +131,7 @@ class ReconSupplyments extends React.Component {
             <div className="reco-supplements">
                 <div className="reco">
                     <div className="title">Supplements for you </div>
+                    <a className="see-all" href="https://jet.com/search?term=vitamins">See all</a>
                 </div>
                 <div className="supplements">
                     <Slider {...settings}>
@@ -149,7 +150,7 @@ class ReconSupplyments extends React.Component {
 }
 
 const Recommendation = () => (
-    <div class="recommendation">
+    <div className="recommendation">
         <RecoHeader/>
         <RecoMeals/>
         <RecoBanner/>

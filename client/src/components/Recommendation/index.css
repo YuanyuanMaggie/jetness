@@ -158,10 +158,22 @@
 }
 
 .reco-supplements .reco {
+    display: flex;
+    height: 30px;
+    line-height: 30px;
     margin: 0px 20px;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .reco-supplements .reco .title {
     font-size: 20px;
     font-weight: bolder;
+}
+
+.reco-supplements .reco a.see-all {
+    display: block;
+    font-size: 14px;
+    color: #8200ff;
+    cursor: pointer;
 }
