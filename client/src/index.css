@@ -82,6 +82,10 @@ body {
   padding-left: 1rem;
 }
 
+.pr1{
+  padding-right: 0.5rem;
+}
+
 .pr2{
   padding-right: 1rem;
 }
@@ -97,6 +101,10 @@ body {
 .py1{
   padding-top:0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.pt2{
+  padding-top:1rem;
 }
 
 .mr1{
