@@ -1,5 +1,9 @@
 import React from 'react';
 import RecoBanner from './ReconBanner';
+import Slider from 'react-slick';
+
+import ProductItem from '../ProductItem';
+
 import './index.css';
 
 const RecoHeader = () => (
@@ -23,11 +27,45 @@ const RecoHeader = () => (
     </div>
 )
 
-const RecoMeals = () => (
-    <div className="reco-meals">
-        <div>Meals for you</div>
-    </div>
-)
+class RecoMeals extends React.Component {
+    render() {
+        let settings = {
+            dots: false,
+            infinite: false,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+        };
+        let meals = [
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', calories: 400 },
+            { desc: 'Roasted Salmon Glazed With Brown Sugar and Mustard', src: 'img', calories: 500 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', calories: 400 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', calories: 400 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', calories: 400 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', calories: 400 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', calories: 400 },
+        ];
+    
+        return (
+            <div className="reco-meals">
+                <div className="reco">
+                    <div className="desc">Recommendations to reach your goal: </div>
+                    <div className="see-all">See all</div>
+                </div>
+                <div className="meals">
+                    <Slider {...settings}>
+                        {
+                            meals.map((meal, i) => 
+                                <div key={i}>
+                                    <ProductItem desc={meal.desc} calories={meal.calories} src={meal.src} />
+                                </div>
+                            )
+                        }
+                    </Slider>
+                </div>
+            </div>
+        );
+    };
+}
 
 const ReconSupplyments = () => (
     <div className="reco-supplyments section">

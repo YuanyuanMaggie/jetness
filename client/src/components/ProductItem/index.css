@@ -1,0 +1,39 @@
+.product-item {
+  display: inline-block;
+  margin: 20px;
+  width: 230px;
+}
+
+.product-item .product-img {
+  width: 100%;
+  height: 200px;
+}
+
+.product-item .product-desc {
+  font-size: 12px;
+  font-weight: 400;
+  height: 40px;
+  margin-top: 10px;
+  white-space: normal;
+  text-align: left;
+}
+
+.product-item .product-calories {
+  display: flex;
+  height: 25px;
+  line-height: 25px;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.product-item .product-add-to-cart {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  color: #8200ff;
+  border-top: 3px solid #e7e7e7;
+}

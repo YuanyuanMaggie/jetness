@@ -98,3 +98,28 @@
         background-position: right;
     }
 }
+
+.reco-meals {
+    margin: 20px;
+    overflow: hidden;
+}
+
+.reco-meals .reco {
+    display: flex;
+    height: 30px;
+    line-height: 30px;
+    margin: 0px 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.reco-meals .reco .desc {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.reco-meals .reco .see-all {
+    font-size: 14px;
+    color: #8200ff;
+    cursor: pointer;
+}
