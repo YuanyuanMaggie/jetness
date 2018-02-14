@@ -62,7 +62,7 @@ const RecoBanner = ({toggleLogModal, showLogModal, toggleRstModal, showRstModal}
             ariaHideApp={false}
             onRequestClose={() => {toggleLogModal(false)}}
         >
-            <a href="" class="close close-button" onClick={() => {toggleLogModal(false)}}><i class="icon-close text-gray-3 gray"></i></a>
+            <a href="" className="close close-button" onClick={() => {toggleLogModal(false)}}><i className="icon-close text-gray-3 gray"></i></a>
             <Logging toggleRstModal={toggleRstModal} />
         </Modal>
         <Modal
@@ -72,7 +72,7 @@ const RecoBanner = ({toggleLogModal, showLogModal, toggleRstModal, showRstModal}
             ariaHideApp={false}
             onRequestClose={() => {toggleRstModal(false)}}
         >
-            <a href="" class="close close-button" onClick={() => {toggleRstModal(false)}}><i class="icon-close text-gray-3 gray"></i></a>
+            <a href="" className="close close-button" onClick={() => {toggleRstModal(false)}}><i className="icon-close text-gray-3 gray"></i></a>
             <ResultModal toggleRstModal={toggleRstModal}/>
         </Modal>
     </div>

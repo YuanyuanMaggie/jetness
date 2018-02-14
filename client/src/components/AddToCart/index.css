@@ -1,0 +1,9 @@
+.add-to-cart {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  color: #8200ff;
+  border-top: 3px solid #e7e7e7;
+}
