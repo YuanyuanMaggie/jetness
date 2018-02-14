@@ -34,17 +34,17 @@ class RecoMeals extends React.Component {
         let settings = {
             dots: false,
             infinite: false,
+            draggable: false,
             slidesToShow: 4,
             slidesToScroll: 1,
         };
         let meals = [
-            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', calories: 400 },
-            { desc: 'Roasted Salmon Glazed With Brown Sugar and Mustard', src: 'img', calories: 500 },
-            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', calories: 400 },
-            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', calories: 400 },
-            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', calories: 400 },
-            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', calories: 400 },
-            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', calories: 400 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/plan1.png', calories: 400 },
+            { desc: 'Roasted Salmon Glazed With Brown Sugar and Mustard', src: 'images/plan2.png', calories: 500 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/plan3-.png', calories: 400 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/plan4.png', calories: 400 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/plan5.png', calories: 400 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/plan6.png', calories: 400 },
         ];
     
         return (
@@ -74,17 +74,17 @@ class ReconWears extends React.Component {
         let settings = {
             dots: false,
             infinite: false,
+            draggable: false,
             slidesToShow: 5,
             slidesToScroll: 1,
         };
         let wears = [
-            { brnad: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 21 },
-            { brnad: 'Nike', desc: 'Roasted Salmon Glazed With Brown Sugar and Mustard', src: 'img', price: 23.98 },
-            { brnad: 'Adidas', desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 23.98 },
-            { brnad: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 23.98 },
-            { brnad: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 23.98 },
-            { brnad: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 23.98 },
-            { brnad: 'Adidas', desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 23.98 },
+            { brnad: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/sports1.png', price: 21 },
+            { brnad: 'Nike', desc: 'Roasted Salmon Glazed With Brown Sugar and Mustard', src: 'images/sports2.png', price: 23.98 },
+            { brnad: 'Adidas', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/sports3.png', price: 23.98 },
+            { brnad: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/sports5.png', price: 23.98 },
+            { brnad: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/s1.png', price: 23.98 },
+            { brnad: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/s5.png', price: 23.98 },
         ];
     
         return (
@@ -114,17 +114,17 @@ class ReconSupplyments extends React.Component {
         let settings = {
             dots: false,
             infinite: false,
+            draggable: false,
             slidesToShow: 6,
             slidesToScroll: 1,
         };
         let supplements = [
-            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 21 },
-            { desc: 'Roasted Salmon Glazed With Brown Sugar and Mustard', src: 'img', price: 23.98 },
-            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 23.98 },
-            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 23.98 },
-            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 23.98 },
-            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 23.98 },
-            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 23.98 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/supply2.png', price: 21 },
+            { desc: 'Roasted Salmon Glazed With Brown Sugar and Mustard', src: 'images/supply2.png', price: 23.98 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/supply3.png', price: 23.98 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/supply4.png', price: 23.98 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/supply5.png', price: 23.98 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/supply6.png', price: 23.98 },
         ];
     
         return (

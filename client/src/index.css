@@ -205,7 +205,7 @@ body {
   list-style: none;
 }
 
-.clearfix::before, .grid::before {
+.clearfix:before, .grid:before {
   content: " ";
   display: table;
 }
