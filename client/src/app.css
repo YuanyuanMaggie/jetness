@@ -4811,9 +4811,6 @@ body.nav-only .site-wide-message{
   background:linear-gradient(135deg,#ac59ff 0,#8200ff 36%,#5c0889 100%);
   filter:progid
 }
-.hero :DXImageTransform.Microsoft.gradient(startColorstr='#ac59ff',.hero endColorstr='#5c0889',.hero GradientType=1),.hero h1,.hero h2{
-  margin-bottom:0
-}
 .hero .bg-image{
   text-align:center;
   width:initial
