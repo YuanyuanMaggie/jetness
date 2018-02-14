@@ -138,6 +138,11 @@ body {
   }
 }
 
+.col {
+  float: left;
+  padding: 0 20px;
+}
+
 /* icons */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'jeticons';
@@ -178,4 +183,18 @@ body {
 
 .icon-j:before {
   content: '\e827';
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.grid {
+  margin: 0;
+  list-style: none;
+}
+
+.clearfix::before, .grid::before {
+  content: " ";
+  display: table;
 }
