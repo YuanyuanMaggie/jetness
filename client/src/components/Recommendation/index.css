@@ -3,3 +3,34 @@
     padding: 8rem 3.5rem 3rem;
     color: white;
 }
+
+.reco-banner-title{
+    width: 100%;
+}
+
+.reco-banner{
+    background-color: #9eb8c8;
+    padding: 4.5rem 3.5rem 3rem;
+    color: white;
+    font-size: 20px;
+}
+
+.reco-banner-btn{
+    margin-top: 1rem;
+    padding: 0.85rem 2rem;
+    color: white;
+    border: solid 1px #fff;
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+@media (min-width: 1025px){
+    .reco-banner-title {
+        width: 50%;
+    }
+    .reco-banner{
+        background-image: url("/images/girl.png");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+}

@@ -30,13 +30,14 @@ const RecoMeals = () => (
 
 const RecoBanner = () => (
     <div className="reco-banner">
-        <div>Banner</div>
+        <h1 className="reco-banner-title font-bold">Reach your fitness goal and get rewards</h1>
+        <button className="reco-banner-btn font-bold">Claim </button>
     </div>
 )
 
 const ReconSupplyments = () => (
     <div className="reco-supplyments">
-        <div>Banner</div>
+        <div>Activewear for you</div>
     </div>
 )
 
