@@ -1,0 +1,35 @@
+.wear-item {
+  display: inline-block;
+  margin: 20px;
+  width: 200px;
+  background: white;
+}
+
+.wear-item .wear-img {
+  width: 100%;
+  height: 200px;
+}
+
+.wear-item .wear-brand {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.wear-item .wear-desc {
+  font-size: 12px;
+  font-weight: 400;
+  height: 40px;
+  margin-top: 10px;
+  white-space: normal;
+  text-align: left;
+  padding: 0px 10px;
+}
+
+.wear-item .wear-price {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  padding: 0px 10px;
+  margin-bottom: 5px;
+}

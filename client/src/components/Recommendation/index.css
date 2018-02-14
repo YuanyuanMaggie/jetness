@@ -1,4 +1,8 @@
-.reco-header{
+.recommendation {
+    background-color: #e7e7e7;
+}
+
+.reco-header {
     background-color: #ff7966;
     padding: 8rem 3.5rem 3rem;
     color: white;
@@ -97,4 +101,79 @@
         background-repeat: no-repeat;
         background-position: right;
     }
+}
+
+.reco-meals {
+    margin: 20px;
+    overflow: hidden;
+}
+
+.reco-meals .reco {
+    display: flex;
+    height: 30px;
+    line-height: 30px;
+    margin: 0px 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.reco-meals .reco .title {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.reco-meals .reco .see-all {
+    font-size: 14px;
+    color: #8200ff;
+    cursor: pointer;
+}
+
+.reco-banner {
+    height: 200px;
+    margin: 30px 0px;
+    border: 1px solid black;
+}
+
+.reco-wears {
+    margin: 20px;
+    overflow: hidden;
+}
+
+.reco-wears .reco {
+    margin: 0px 20px;
+}
+
+.reco-wears .reco .title {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.reco-wears .reco .desc {
+    font-size: 14px;
+}
+
+.reco-supplements {
+    margin: 20px 20px 40px 20px;
+    overflow: hidden;
+}
+
+.reco-supplements .reco {
+    display: flex;
+    height: 30px;
+    line-height: 30px;
+    margin: 0px 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.reco-supplements .reco .title {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.reco-supplements .reco a.see-all {
+    display: block;
+    font-size: 14px;
+    color: #8200ff;
+    cursor: pointer;
 }
