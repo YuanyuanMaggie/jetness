@@ -24,6 +24,70 @@
     cursor: pointer;
 }
 
+.close-button {
+    float:right;
+    padding: 1rem;
+}
+
+.logging-top {
+    padding: 3rem;
+}
+
+.log-box {
+    width: 250px;
+    border: 1px solid #8200ff;
+    height: 48px;
+    border-radius: 0;
+    margin-right: 1rem;
+}
+
+.btn-send {
+    width: 150px;
+    height: 48px;
+}
+
+.logging-bottom{
+    background-color: #9eb8c8;
+    padding: 2rem 3rem 3rem;
+    color: white;
+    font-size: 20px;
+    background-image: url("/images/girl.png");
+    background-repeat: no-repeat;
+    background-position: right -10px top;
+    background-size: contain;
+}
+
+.logging-banner{
+    width: 50%;
+}
+
+.result-modal{
+    padding: 1.5rem 5.5rem;
+}
+
+.result-modal-header{
+    background-image:url('https://jetimages.jetcdn.net/videos/cms_images/web_order_confirmation/congrats_stars.png');
+    max-width: 400px;
+    height: 121px;
+    background-repeat: no-repeat;
+}
+
+.font-accent-semibold{
+    color: #360060;
+    font-size: 40px;
+    line-height: 1.38;
+    letter-spacing: -0.9px;
+}
+
+.gift{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gift-img{
+    max-width: 250px;
+}
+
 @media (min-width: 1025px){
     .reco-banner-title {
         width: 50%;

@@ -1,4 +1,5 @@
 import React from 'react';
+import RecoBanner from './ReconBanner';
 import './index.css';
 
 const RecoHeader = () => (
@@ -28,22 +29,21 @@ const RecoMeals = () => (
     </div>
 )
 
-const RecoBanner = () => (
-    <div className="reco-banner">
-        <h1 className="reco-banner-title font-bold">Reach your fitness goal and get rewards</h1>
-        <button className="reco-banner-btn font-bold">Claim </button>
-    </div>
-)
-
 const ReconSupplyments = () => (
-    <div className="reco-supplyments">
-        <div>Activewear for you</div>
+    <div className="reco-supplyments section">
+        <div className="section-header font-bold">Activewear for you</div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div className="log-input">
+            <input type="text" placeholder="Update your data" className="py1 pl2 pr4 h5 search-box hide-small hide-medium"/>
+        </div>
     </div>
 )
 
 const ReconWear = () => (
-    <div className="reco-wear">
-        <div>Banner</div>
+    <div className="reco-reconWear section">
+        <div className="section-header font-bold">Supplements for you</div>
     </div>
 )
 

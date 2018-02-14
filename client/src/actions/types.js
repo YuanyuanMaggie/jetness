@@ -1,1 +1,2 @@
-export const FETCH_USER = 'FETCH_USER';
+export const TOGGLE_LOG_MODAL = 'TOGGLE_LOG_MODAL';
+export const TOGGLE_RST_MODAL = 'OPEN_RST_MODAL';
