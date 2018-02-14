@@ -69,12 +69,6 @@ class RecoMeals extends React.Component {
     };
 }
 
-const RecoBanner = () => (
-    <div className="reco-banner">
-        <div>Banner</div>
-    </div>
-)
-
 class ReconWears extends React.Component {
     render() {
         let settings = {
