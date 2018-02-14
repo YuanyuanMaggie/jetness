@@ -2,7 +2,9 @@ import React from 'react';
 import RecoBanner from './ReconBanner';
 import Slider from 'react-slick';
 
-import ProductItem from '../ProductItem';
+import MealItem from '../MealItem';
+import WearItem from '../WearItem';
+import SupplementItem from '../SupplementItem';
 
 import './index.css';
 
@@ -48,7 +50,7 @@ class RecoMeals extends React.Component {
         return (
             <div className="reco-meals">
                 <div className="reco">
-                    <div className="desc">Recommendations to reach your goal: </div>
+                    <div className="title">Recommendations to reach your goal: </div>
                     <div className="see-all">See all</div>
                 </div>
                 <div className="meals">
@@ -56,7 +58,7 @@ class RecoMeals extends React.Component {
                         {
                             meals.map((meal, i) => 
                                 <div key={i}>
-                                    <ProductItem desc={meal.desc} calories={meal.calories} src={meal.src} />
+                                    <MealItem desc={meal.desc} calories={meal.calories} src={meal.src} />
                                 </div>
                             )
                         }
@@ -67,38 +69,98 @@ class RecoMeals extends React.Component {
     };
 }
 
-const ReconSupplyments = () => (
-    <div className="reco-supplyments section">
-        <div className="section-header font-bold">Activewear for you</div>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-        <div className="log-input">
-            <input type="text" placeholder="Update your data" className="py1 pl2 pr4 h5 search-box hide-small hide-medium"/>
-        </div>
+const RecoBanner = () => (
+    <div className="reco-banner">
+        <div>Banner</div>
     </div>
 )
 
-const ReconWear = () => (
-    <div className="reco-reconWear section">
-        <div className="section-header font-bold">Supplements for you</div>
-    </div>
-)
+class ReconWears extends React.Component {
+    render() {
+        let settings = {
+            dots: false,
+            infinite: false,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+        };
+        let wears = [
+            { brnad: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 21 },
+            { brnad: 'Nike', desc: 'Roasted Salmon Glazed With Brown Sugar and Mustard', src: 'img', price: 23.98 },
+            { brnad: 'Adidas', desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 23.98 },
+            { brnad: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 23.98 },
+            { brnad: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 23.98 },
+            { brnad: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 23.98 },
+            { brnad: 'Adidas', desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 23.98 },
+        ];
+    
+        return (
+            <div className="reco-wears">
+                <div className="reco">
+                    <div className="title">Activewear for you </div>
+                    <div className="desc">The descriptions below can be copied and pasted into a Word Processor and then tweaked accordingly. </div>
+                </div>
+                <div className="wears">
+                    <Slider {...settings}>
+                        {
+                            wears.map((wear, i) => 
+                                <div key={i}>
+                                    <WearItem desc={wear.desc} brand={wear.brand} price={wear.price} src={wear.src} />
+                                </div>
+                            )
+                        }
+                    </Slider>
+                </div>
+            </div>
+        );
+    };
+}
 
-const RecoResult = () => (
-    <div className="reco-bottom">
-
-    </div>
-)
+class ReconSupplyments extends React.Component {
+    render() {
+        let settings = {
+            dots: false,
+            infinite: false,
+            slidesToShow: 6,
+            slidesToScroll: 1,
+        };
+        let supplements = [
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 21 },
+            { desc: 'Roasted Salmon Glazed With Brown Sugar and Mustard', src: 'img', price: 23.98 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 23.98 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 23.98 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 23.98 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 23.98 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'img', price: 23.98 },
+        ];
+    
+        return (
+            <div className="reco-supplements">
+                <div className="reco">
+                    <div className="title">Supplements for you </div>
+                </div>
+                <div className="supplements">
+                    <Slider {...settings}>
+                        {
+                            supplements.map((supplement, i) => 
+                                <div key={i}>
+                                    <SupplementItem desc={supplement.desc} price={supplement.price} src={supplement.src} />
+                                </div>
+                            )
+                        }
+                    </Slider>
+                </div>
+            </div>
+        );
+    };
+}
 
 const Recommendation = () => (
-    <div>
+    <div class="recommendation">
         <RecoHeader/>
         <RecoMeals/>
         <RecoBanner/>
+        <ReconWears/>
         <ReconSupplyments/>
-        <ReconWear/>
-        <RecoResult/>
     </div>
 )
 

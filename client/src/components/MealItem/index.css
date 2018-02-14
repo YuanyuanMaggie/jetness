@@ -1,39 +1,33 @@
-.product-item {
+.meal-item {
   display: inline-block;
   margin: 20px;
   width: 230px;
+  background: white;
 }
 
-.product-item .product-img {
+.meal-item .meal-img {
   width: 100%;
   height: 200px;
 }
 
-.product-item .product-desc {
+.meal-item .meal-desc {
   font-size: 12px;
   font-weight: 400;
   height: 40px;
   margin-top: 10px;
+  padding: 5px;
   white-space: normal;
   text-align: left;
 }
 
-.product-item .product-calories {
+.meal-item .meal-calories {
   display: flex;
   height: 25px;
   line-height: 25px;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 13px;
   font-weight: bold;
-}
-
-.product-item .product-add-to-cart {
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  cursor: pointer;
-  font-weight: bold;
-  color: #8200ff;
-  border-top: 3px solid #e7e7e7;
+  padding: 5px;
+  margin-bottom: 5px;
 }
