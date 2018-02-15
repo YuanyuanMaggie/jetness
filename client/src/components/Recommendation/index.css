@@ -125,7 +125,7 @@
 }
 
 .reco-meals .reco .title {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bolder;
 }
 
@@ -149,12 +149,36 @@
 }
 
 .reco-wears .reco .title {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bolder;
 }
 
 .reco-wears .reco .desc {
     font-size: 14px;
+}
+
+.reco-wears .reco .your-size {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.reco-wears .reco .your-size .your-top-size,
+.reco-wears .reco .your-size .your-bottom-size,
+.reco-wears .reco .your-size .your-shoes-size {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.reco-wears .reco .your-size .your-top-size div,
+.reco-wears .reco .your-size .your-bottom-size div,
+.reco-wears .reco .your-size .your-shoes-size div {
+    margin-right: 5px;
 }
 
 .reco-supplements {
@@ -172,7 +196,7 @@
 }
 
 .reco-supplements .reco .title {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bolder;
 }
 

@@ -9,7 +9,9 @@ class WearItem extends React.Component {
 
     return (
       <div className="wear-item">
-        <img className="wear-img" src={src}></img>
+        <div className="wear-img-wrapper">
+          <img className="wear-img" src={src}></img>
+        </div>
         <div className="wear-brand">{brand}</div>
         <div className="wear-desc">{desc}</div>
         <div className="wear-price">${price}</div>

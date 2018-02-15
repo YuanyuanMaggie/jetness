@@ -5,7 +5,11 @@
   background: white;
 }
 
-.wear-item .wear-img {
+.wear-item .wear-img-wrapper {
+  height: 275px;
+}
+
+.wear-item .wear-img-wrapper .wear-img {
   max-width: 100%;
   max-height: 100%;
 }
@@ -14,6 +18,7 @@
   font-size: 12px;
   font-weight: bold;
   text-align: left;
+  padding: 0px 10px;
 }
 
 .wear-item .wear-desc {
