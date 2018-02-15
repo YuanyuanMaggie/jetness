@@ -5,12 +5,13 @@ import RadialChart from '../RadialChart';
 import MealItem from '../MealItem';
 import WearItem from '../WearItem';
 import SupplementItem from '../SupplementItem';
+import InputPlaceHolder from '../Result/InputPlaceHolder';
 import RecoHeader from './RecoHeader';
 import './index.css';
 
 const RecoVideo = () => (
     <div className="reco-video">
-        <video autoPlay loop id="video-background" muted plays-inline>
+        <video autoPlay loop id="video-background" muted plays-inline="true">
             <source src="/images/keep.mp4" type="video/mp4"/>
         </video>
         <div className="video-wrapper"></div>
@@ -126,8 +127,19 @@ class ReconWears extends React.Component {
         return (
             <div className="reco-wears">
                 <div className="reco">
-                    <div className="title">Activewear for you </div>
-                    <div className="desc">The descriptions below can be copied and pasted into a Word Processor and then tweaked accordingly. </div>
+                    <div className="title">Sports supplies for you</div>
+                    <div className="desc">Here are our recommendations based on your data :) </div>
+                    <div className="your-size">
+                        <div className="your-top-size">
+                            <div>Top</div><InputPlaceHolder placeholder='M' /><div className="icon-caret-down"></div>
+                        </div>
+                        <div className="your-bottom-size">
+                            <div>Bottom</div><InputPlaceHolder placeholder='M' /><div className="icon-caret-down"></div>
+                        </div>
+                        <div className="your-shoes-size">
+                            <div>Shoes</div><InputPlaceHolder placeholder='8' /><div className="icon-caret-down"></div>
+                        </div>
+                    </div>
                 </div>
                 <div className="wears">
                     <Slider {...settings}>
