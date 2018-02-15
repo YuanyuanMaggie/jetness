@@ -41,7 +41,7 @@ class ResultForm extends React.Component {
   render() {
     return (
       <div className="result-form">
-        <video width="400" height="320" controls loop>
+        <video width="400" height="320" controls loop autoPlay>
           <source src="images/3d-body.mp4" type="video/mp4"></source>
         </video>
 
