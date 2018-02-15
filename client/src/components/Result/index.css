@@ -102,13 +102,12 @@ div.set-goal div.title {
 div.set-goal div.goals {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
   margin: 10px;
 }
 
 div.set-goal div.goals div.goal-wrwapper {
-  max-width: 33.33333%;
-  margin: 10px 10px;
+  padding: 10px 10px;
 }
 
 a.set-goal-button {
