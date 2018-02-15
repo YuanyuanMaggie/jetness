@@ -1,0 +1,14 @@
+#radial-chart{
+    height: 700px;
+    width: 100%;
+}
+
+.radial{
+    position: relative;
+}
+
+#menu-chart{
+    position: absolute;
+    top: 0;
+    left: 70%;
+}

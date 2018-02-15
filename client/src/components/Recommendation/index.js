@@ -1,7 +1,7 @@
 import React from 'react';
 import RecoBanner from './ReconBanner';
 import Slider from 'react-slick';
-
+import RadialChart from '../RadialChart';
 import MealItem from '../MealItem';
 import WearItem from '../WearItem';
 import SupplementItem from '../SupplementItem';
@@ -152,6 +152,7 @@ class ReconSupplyments extends React.Component {
 const Recommendation = () => (
     <div className="recommendation">
         <RecoHeader/>
+        <RadialChart/>
         <RecoMeals/>
         <RecoBanner/>
         <ReconWears/>
