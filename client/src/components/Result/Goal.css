@@ -1,0 +1,64 @@
+div.goal {
+  position: relative;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+div.goal div.goal-detail {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.goal div.goal-status {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border: 1px solid #efefef;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  color: #efefef;
+  cursor: pointer;
+}
+
+div.goal div.goal-status.not-selected {
+  background: #efefef;
+}
+
+div.goal div.goal-status.selected {
+  background: #8200ff;
+}
+
+div.goal div.goal-detail div.goal-name {
+  font-weight: bolder;
+  font-size: 18px;
+  width: 100%;
+  text-align: left;
+  padding-left: 30px;
+}
+
+div.goal div.goal-detail div.goal-pound {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 30px;
+  font-size: 12px;
+}
+
+div.goal div.goal-detail div.goal-pound div.input-placeholder {
+  margin-left: 5px;
+}
+
+div.goal img {
+  max-width: 100%;
+  max-height: 100%;
+}

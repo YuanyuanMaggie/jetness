@@ -1,0 +1,212 @@
+.result {
+  background: #efefef;
+  padding-bottom: 20px;
+}
+
+.result-header {
+  background-color: #00cc99;
+  padding: 8rem 3.5rem 3rem;
+  color: white;
+}
+
+.result-header div.hi, .result-header h2, .result-header div.result {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: initial;
+}
+
+.result-header h2 {
+  margin: 20px 0px;
+}
+
+.result-header div.progress, .result-header div.status {
+  display: flex;
+  height: 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.result-header div.progress div {
+  width: 150px;
+  height: 6px;
+}
+
+.result-header div.progress div:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-right: 1px solid #efefef;
+}
+
+.result-header div.progress div:last-child {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.result-header div.progress div.done {
+  background-color: #8200ff;
+}
+
+.result-header div.progress div.not-done {
+  background-color: #efefef;
+}
+
+.result-header div.status div {
+  width: 150px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 12px;
+  padding: 0px 50px;
+}
+
+div.set-date {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 80px;
+}
+
+div.set-date div.title {
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 20px;
+}
+
+div.set-date div.day, div.set-date div.month {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+div.set-date div.day div, div.set-date div.month div {
+  margin-right: 10px;
+}
+
+div.set-goal {
+  margin: 20px 80px;
+}
+
+div.set-goal div.title {
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 20px;
+}
+
+div.set-goal div.goals {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 10px;
+}
+
+div.set-goal div.goals div.goal-wrwapper {
+  max-width: 33.33333%;
+  margin: 10px 10px;
+}
+
+a.set-goal-button {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #efefef;
+  background: #8200ff;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+div.result-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 80px;
+}
+
+div.result-form div.image {
+  width: 30%;
+}
+
+div.result-form div.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+div.result-form div.form div.top,
+div.result-form div.form div.bottom {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.result-form div.form div.top div.title,
+div.result-form div.form div.bottom div.title {
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bolder;
+  margin: 10px 0px;
+}
+
+div.result-form div.form div.top div.top-result,
+div.result-form div.form div.bottom div.bottom-result {
+  width: 80%;
+  margin: 10px 0px;
+}
+
+div.result-form div.form div.top div.top-result div.top-header,
+div.result-form div.form div.bottom div.bottom-result div.bottom-header,
+div.result-form div.form div.top div.top-result div.top-body,
+div.result-form div.form div.bottom div.bottom-result div.bottom-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin: 5px 0px;
+}
+
+div.result-form div.form div.top div.top-result div.top-header span,
+div.result-form div.form div.bottom div.bottom-result div.bottom-header span {
+  display: block;
+  width: 100%;
+  font-size: 12px;
+}
+
+div.result-form div.form div.top div.top-result div.top-body span,
+div.result-form div.form div.bottom div.bottom-result div.bottom-body span {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+div.result-form div.form div.top div.top-size,
+div.result-form div.form div.bottom div.bottom-size {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+div.result-form div.form div.top div.top-size div,
+div.result-form div.form div.bottom div.bottom-size div {
+  margin-right: 20px;
+}
