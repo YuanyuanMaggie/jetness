@@ -60,12 +60,18 @@ class RecoMeals extends React.Component {
             slidesToScroll: 1,
         };
         let meals = [
-            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/plan1.png', calories: 400 },
-            { desc: 'Roasted Salmon Glazed With Brown Sugar and Mustard', src: 'images/plan2.png', calories: 500 },
-            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/plan3-.png', calories: 400 },
-            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/plan4.png', calories: 400 },
-            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/plan5.png', calories: 400 },
-            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/plan6.png', calories: 400 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/reco/reco-1.png', calories: 400 },
+            { desc: 'Roasted Salmon Glazed With Brown Sugar and Mustard', src: 'images/reco/reco-2.png', calories: 500 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/reco/reco-3.png', calories: 400 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/reco/reco-4.png', calories: 400 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/reco/reco-5.png', calories: 400 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/reco/reco-6.png', calories: 400 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/reco/reco-7.png', calories: 400 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/reco/reco-8.png', calories: 400 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/reco/reco-9.png', calories: 400 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/reco/reco-10.png', calories: 400 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/reco/reco-11.png', calories: 400 },
+            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/reco/reco-12.png', calories: 400 },
         ];
     
         return (
@@ -100,12 +106,21 @@ class ReconWears extends React.Component {
             slidesToScroll: 1,
         };
         let wears = [
-            { brnad: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/sports1.png', price: 21 },
-            { brnad: 'Nike', desc: 'Roasted Salmon Glazed With Brown Sugar and Mustard', src: 'images/sports2.png', price: 23.98 },
-            { brnad: 'Adidas', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/sports3.png', price: 23.98 },
-            { brnad: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/sports5.png', price: 23.98 },
-            { brnad: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/s1.png', price: 23.98 },
-            { brnad: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/s5.png', price: 23.98 },
+            { brand: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/sports-supplies/ss-1.png', price: 21 },
+            { brand: 'Nike', desc: 'Roasted Salmon Glazed With Brown Sugar and Mustard', src: 'images/sports-supplies/ss-2.png', price: 23.98 },
+            { brand: 'Adidas', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/sports-supplies/ss-3.png', price: 23.98 },
+            { brand: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/sports-supplies/ss-4.png', price: 23.98 },
+            { brand: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/sports-supplies/ss-5.png', price: 23.98 },
+            { brand: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/sports-supplies/ss-6.png', price: 23.98 },
+            { brand: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/sports-supplies/ss-7.png', price: 21 },
+            { brand: 'Nike', desc: 'Roasted Salmon Glazed With Brown Sugar and Mustard', src: 'images/sports-supplies/ss-8.png', price: 23.98 },
+            { brand: 'Adidas', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/sports-supplies/ss-9.png', price: 23.98 },
+            { brand: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/sports-supplies/ss-10.png', price: 23.98 },
+            { brand: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/sports-supplies/ss-11.png', price: 23.98 },
+            { brand: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/sports-supplies/ss-12.png', price: 23.98 },
+            { brand: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/sports-supplies/ss-13.png', price: 23.98 },
+            { brand: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/sports-supplies/ss-14.png', price: 23.98 },
+            { brand: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/sports-supplies/ss-15.png', price: 23.98 },
         ];
     
         return (
@@ -140,12 +155,24 @@ class ReconSupplyments extends React.Component {
             slidesToScroll: 1,
         };
         let supplements = [
-            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/supply2.png', price: 21 },
-            { desc: 'Roasted Salmon Glazed With Brown Sugar and Mustard', src: 'images/supply2.png', price: 23.98 },
-            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/supply3.png', price: 23.98 },
-            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/supply4.png', price: 23.98 },
-            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/supply5.png', price: 23.98 },
-            { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/supply6.png', price: 23.98 },
+            { desc: 'Aesop Spray Deodoran', src: 'images/supplements/supplements-1.png', price: 21 },
+            { desc: 'Aesop Spray Deodoran', src: 'images/supplements/supplements-2.png', price: 21 },
+            { desc: 'Aesop Spray Deodoran', src: 'images/supplements/supplements-3.png', price: 21 },
+            { desc: 'Aesop Spray Deodoran', src: 'images/supplements/supplements-4.png', price: 21 },
+            { desc: 'Aesop Spray Deodoran', src: 'images/supplements/supplements-5.png', price: 21 },
+            { desc: 'Aesop Spray Deodoran', src: 'images/supplements/supplements-6.png', price: 21 },
+            { desc: 'Aesop Spray Deodoran', src: 'images/supplements/supplements-7.png', price: 21 },
+            { desc: 'Aesop Spray Deodoran', src: 'images/supplements/supplements-8.png', price: 21 },
+            { desc: 'Aesop Spray Deodoran', src: 'images/supplements/supplements-9.png', price: 21 },
+            { desc: 'Aesop Spray Deodoran', src: 'images/supplements/supplements-10.png', price: 21 },
+            { desc: 'Aesop Spray Deodoran', src: 'images/supplements/supplements-11.png', price: 21 },
+            { desc: 'Aesop Spray Deodoran', src: 'images/supplements/supplements-12.png', price: 21 },
+            { desc: 'Aesop Spray Deodoran', src: 'images/supplements/supplements-13.png', price: 21 },
+            { desc: 'Aesop Spray Deodoran', src: 'images/supplements/supplements-14.png', price: 21 },
+            { desc: 'Aesop Spray Deodoran', src: 'images/supplements/supplements-15.png', price: 21 },
+            { desc: 'Aesop Spray Deodoran', src: 'images/supplements/supplements-16.png', price: 21 },
+            { desc: 'Aesop Spray Deodoran', src: 'images/supplements/supplements-17.png', price: 21 },
+            { desc: 'Aesop Spray Deodoran', src: 'images/supplements/supplements-18.png', price: 21 },
         ];
     
         return (
