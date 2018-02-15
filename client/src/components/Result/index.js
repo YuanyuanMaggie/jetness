@@ -104,10 +104,10 @@ class SetDate extends React.Component {
       <div className="set-date">
         <div className="title">Set a date for your goal</div>
         <div className="day">
-          <div>Day</div><InputPlaceHolder placeholder='3' /><div className="icon-caret-down"></div>
+          <div>Day</div><InputPlaceHolder placeholder='10' /><div className="icon-caret-down"></div>
         </div>
         <div className="month">
-          <div>Month</div><InputPlaceHolder placeholder='10' /><div className="icon-caret-down"></div>
+          <div>Month</div><InputPlaceHolder placeholder='4' /><div className="icon-caret-down"></div>
         </div>
       </div>
     );

@@ -11,7 +11,7 @@ class MealItem extends React.Component {
       <div className="meal-item">
         <img className="meal-img" src={src}></img>
         <div className="meal-desc">{desc}</div>
-        <div className="meal-calories">
+        <div className="meal-calories hide-small">
           <span>High Protein</span>
           <span>Calories: {calories}</span>
         </div>

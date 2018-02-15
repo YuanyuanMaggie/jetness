@@ -59,6 +59,13 @@ class RecoMeals extends React.Component {
             draggable: false,
             slidesToShow: 4,
             slidesToScroll: 1,
+            responsive: [
+                { breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                }
+            ]
         };
         let meals = [
             { desc: 'Spanish-Style Shrimp With Garlic', src: 'images/reco/reco-1.png', calories: 400 },
@@ -105,7 +112,14 @@ class ReconWears extends React.Component {
             draggable: false,
             slidesToShow: 5,
             slidesToScroll: 1,
-        };
+            responsive: [
+                { breakpoint: 992,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                }
+            ]
+        }; 
         let wears = [
             { brand: 'Nike', desc: 'Spanish-Style Shrimp With Garlic', src: 'images/sports-supplies/ss-1.png', price: 21 },
             { brand: 'Nike', desc: 'Roasted Salmon Glazed With Brown Sugar and Mustard', src: 'images/sports-supplies/ss-2.png', price: 23.98 },
@@ -165,6 +179,18 @@ class ReconSupplyments extends React.Component {
             draggable: false,
             slidesToShow: 6,
             slidesToScroll: 1,
+            responsive: [
+                { breakpoint: 992,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                },
+                { breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                }
+            ]
         };
         let supplements = [
             { desc: 'Aesop Spray Deodoran', src: 'images/supplements/supplements-1.png', price: 21 },
