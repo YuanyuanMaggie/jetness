@@ -8,23 +8,34 @@ import SupplementItem from '../SupplementItem';
 
 import './index.css';
 
+const RecoVideo = () => (
+    <div className="reco-video">
+        <video autoPlay loop id="video-background" muted plays-inline>
+            <source src="/images/keep.mp4" type="video/mp4"/>
+        </video>
+        <div className="video-wrapper"></div>
+    </div>
+)
+
 const RecoHeader = () => (
     <div className="reco-header">
-        <div>Hi, Lizzy!</div>
-        <h2 className="font-bold">Here are your recommendations</h2>
-        <div>
-            <span className="font-bold pr2">Your results:</span> 
-            <span className="pr1">Height</span>
-            <span className="font-bold pr2">5'5''</span>
-            <span className="pr1">Weight</span>
-            <span className="font-bold pr2">150 Lb</span>
-            <span className="pr1">BMI</span>
-            <span className="font-bold pr2">23</span>
-        </div>
-        <div>
-            <span className="font-bold pr2">Your Goal:</span> 
-            <span className="pr1 font-bold">Loose Weight</span>
-            <span className="">(10 Lb)</span>
+        <div className="reco-text">
+            <div>Hi, Lizzy!</div>
+            <h2 className="font-bold">Here are your recommendations</h2>
+            <div>
+                <span className="font-bold pr2">Your results:</span> 
+                <span className="pr1">Height</span>
+                <span className="font-bold pr2">5'5''</span>
+                <span className="pr1">Weight</span>
+                <span className="font-bold pr2">150 Lb</span>
+                <span className="pr1">BMI</span>
+                <span className="font-bold pr2">23</span>
+            </div>
+            <div>
+                <span className="font-bold pr2">Your Goal:</span> 
+                <span className="pr1 font-bold">Loose Weight</span>
+                <span className="">(10 Lb)</span>
+            </div>
         </div>
     </div>
 )
@@ -150,13 +161,16 @@ class ReconSupplyments extends React.Component {
 }
 
 const Recommendation = () => (
-    <div className="recommendation">
+    <div className="">
+        <RecoVideo/>
         <RecoHeader/>
-        <RadialChart/>
-        <RecoMeals/>
-        <RecoBanner/>
-        <ReconWears/>
-        <ReconSupplyments/>
+        <div className="recommendation">
+            <RadialChart/>
+            <RecoMeals/>
+            <RecoBanner/>
+            <ReconWears/>
+            <ReconSupplyments/>
+        </div>
     </div>
 )
 
