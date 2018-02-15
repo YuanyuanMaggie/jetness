@@ -3,6 +3,7 @@
   margin: 20px;
   transform: scale(0.85);
   background: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
 .supplement-item .supplement-img-wrapper {
