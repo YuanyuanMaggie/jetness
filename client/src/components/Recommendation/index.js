@@ -5,7 +5,7 @@ import RadialChart from '../RadialChart';
 import MealItem from '../MealItem';
 import WearItem from '../WearItem';
 import SupplementItem from '../SupplementItem';
-
+import RecoHeader from './RecoHeader';
 import './index.css';
 
 const RecoVideo = () => (
@@ -17,25 +17,35 @@ const RecoVideo = () => (
     </div>
 )
 
-const RecoHeader = () => (
-    <div className="reco-header">
-        <div className="reco-text">
-            <div>Hi, Lizzy!</div>
-            <h2 className="font-bold">Here are your recommendations</h2>
-            <div>
-                <span className="font-bold pr2">Your results:</span> 
-                <span className="pr1">Height</span>
-                <span className="font-bold pr2">5'5''</span>
-                <span className="pr1">Weight</span>
-                <span className="font-bold pr2">150 Lb</span>
-                <span className="pr1">BMI</span>
-                <span className="font-bold pr2">23</span>
-            </div>
-            <div>
-                <span className="font-bold pr2">Your Goal:</span> 
-                <span className="pr1 font-bold">Loose Weight</span>
-                <span className="">(10 Lb)</span>
-            </div>
+const RecoData = () => (
+    <div className="reco-data">
+        <div className="reco-cell">
+            <div></div>
+            <div>Fat</div>
+            <div>Carbs</div>
+            <div>Protein</div>
+            <div>Calories</div>
+        </div>
+        <div className="reco-cell">
+            <div>Goal Of Nutritions:</div>
+            <div className="font-extrabold">442.8</div>
+            <div className="font-extrabold">1000.8</div>
+            <div className="font-extrabold">444.8</div>
+            <div className="font-extrabold">1200</div>
+        </div>
+        <div className="reco-cell border-bottom mb1">
+            <div>In Your Cart:</div>
+            <div className="font-extrabold">100</div>
+            <div className="font-extrabold">100</div>
+            <div className="font-extrabold">100</div>
+            <div className="font-extrabold">300</div>
+        </div>
+        <div className="reco-cell">
+            <div>To Reach Your Goal:</div>
+            <div className="font-extrabold">342.8</div>
+            <div className="font-extrabold">900.8</div>
+            <div className="font-extrabold">344.8</div>
+            <div className="font-extrabold">900</div>
         </div>
     </div>
 )
@@ -166,6 +176,7 @@ const Recommendation = () => (
         <RecoHeader/>
         <div className="recommendation">
             <RadialChart/>
+            <RecoData/>
             <RecoMeals/>
             <RecoBanner/>
             <ReconWears/>

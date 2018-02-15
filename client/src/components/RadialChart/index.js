@@ -82,7 +82,7 @@ class RadialChart extends React.Component {
 
     render() {
         return (
-        <div className="pt2 radial">
+        <div className="pt10 radial">
             <div id="radial-chart">
 
             </div>

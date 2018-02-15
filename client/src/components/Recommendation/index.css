@@ -7,6 +7,8 @@
     color: white;
     position: absolute;
     top:0;
+    left: 0;
+    right: 0;
 }
 
 .reco-banner-title{
@@ -213,4 +215,52 @@
     height: 500px;
     position: absolute;
     top: 0;
+}
+
+.profile-img{
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+}
+
+.price{
+    color: 24px;
+}
+
+.suggestion{
+    display: flex;
+    justify-content: center;
+    color: #333;
+}
+
+.suggestion-icon{
+    width: 35px;
+    height: 35px;
+}
+
+.suggestion-item{
+    width: 120px;
+    height: 160px;
+    position: relative;
+    bottom: -50%;
+    background-color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.reco-data{
+    max-width: 900px;
+    margin: 0 auto 3rem;
+}
+
+.reco-cell{
+    display: flex;
+}
+
+.reco-cell>div{
+    flex: 1;
+}
+
+.reco-cell.border-bottom{
+    border-color: #8200ff;
 }
