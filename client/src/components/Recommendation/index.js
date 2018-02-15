@@ -57,9 +57,14 @@ class RecoMeals extends React.Component {
             dots: false,
             infinite: false,
             draggable: false,
-            slidesToShow: 4,
+            slidesToShow: 5,
             slidesToScroll: 1,
             responsive: [
+                { breakpoint: 1268,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                },
                 { breakpoint: 768,
                     settings: {
                         slidesToShow: 3
@@ -110,9 +115,14 @@ class ReconWears extends React.Component {
             dots: false,
             infinite: false,
             draggable: false,
-            slidesToShow: 5,
+            slidesToShow: 6,
             slidesToScroll: 1,
             responsive: [
+                { breakpoint: 1268,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                },
                 { breakpoint: 992,
                     settings: {
                         slidesToShow: 3
@@ -180,14 +190,19 @@ class ReconSupplyments extends React.Component {
             slidesToShow: 6,
             slidesToScroll: 1,
             responsive: [
-                { breakpoint: 992,
+                { breakpoint: 1280,
                     settings: {
                         slidesToShow: 4
                     }
                 },
-                { breakpoint: 768,
+                { breakpoint: 1024,
                     settings: {
                         slidesToShow: 3
+                    }
+                },
+                { breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2
                     }
                 }
             ]
