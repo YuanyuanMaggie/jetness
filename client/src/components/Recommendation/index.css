@@ -131,7 +131,6 @@
 .reco-banner {
     height: 200px;
     margin: 30px 0px;
-    border: 1px solid black;
 }
 
 .reco-wears {
@@ -176,4 +175,24 @@
     font-size: 14px;
     color: #8200ff;
     cursor: pointer;
+}
+
+.slick-arrow.slick-prev {
+    z-index: 99;
+}
+
+.slick-arrow.slick-prev:before {
+    content: '\e80d';
+    font-family: 'jeticons';
+    color: #8200ff;
+}
+
+.slick-arrow.slick-next {
+    z-index: 99;
+}
+
+.slick-arrow.slick-next:before {
+    content: '\e80f';
+    font-family: 'jeticons';
+    color: #8200ff;
 }
