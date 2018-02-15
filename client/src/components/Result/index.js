@@ -131,7 +131,7 @@ class SetGoal extends React.Component {
         <div className="goals">
           {
             goals.map((goal, i) => 
-              <div key={i} className="goal-wrwapper">
+              <div key={i} className="goal-wrwapper xlarge-4 large-4 medium-6 small-12">
                 <Goal name={goal.name} src={goal.src} weight={goal.weight} />
               </div>
             )
