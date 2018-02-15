@@ -9,7 +9,9 @@ class SupplementItem extends React.Component {
 
     return (
       <div className="supplement-item">
-        <img className="supplement-img" src={src}></img>
+        <div className="supplement-img-wrapper">
+          <img className="supplement-img" src={src}></img>
+        </div>
         <div className="supplement-desc">{desc}</div>
         <div className="supplement-price">${price}</div>
         <AddToCart />
