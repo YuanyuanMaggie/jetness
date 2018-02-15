@@ -7,7 +7,7 @@ class InputPlaceHolder extends React.Component {
     let { placeholder } = this.props;
 
     return (
-      <div className="input-placeholder">{placeholder}</div>
+      <input className="input-placeholder" placeholder={placeholder}/>
     );
   }
 }

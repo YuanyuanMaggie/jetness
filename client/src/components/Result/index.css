@@ -1,6 +1,6 @@
 .result {
   background: #efefef;
-  padding-bottom: 20px;
+  padding-bottom: 5rem;
 }
 
 .result-header {
@@ -87,10 +87,11 @@ div.set-date div.day, div.set-date div.month {
 
 div.set-date div.day div, div.set-date div.month div {
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 div.set-goal {
-  margin: 20px 80px;
+  margin: 20px 80px 3rem;
 }
 
 div.set-goal div.title {

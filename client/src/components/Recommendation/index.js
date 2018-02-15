@@ -29,23 +29,23 @@ const RecoData = () => (
         <div className="reco-cell">
             <div>Goal Of Nutritions:</div>
             <div className="font-extrabold">442.8</div>
+            <div className="font-extrabold">442.8</div>
             <div className="font-extrabold">1000.8</div>
-            <div className="font-extrabold">444.8</div>
-            <div className="font-extrabold">1200</div>
+            <div className="font-extrabold">1900</div>
         </div>
         <div className="reco-cell border-bottom mb1">
             <div>In Your Cart:</div>
-            <div className="font-extrabold">100</div>
-            <div className="font-extrabold">100</div>
-            <div className="font-extrabold">100</div>
             <div className="font-extrabold">300</div>
+            <div className="font-extrabold">300</div>
+            <div className="font-extrabold">300</div>
+            <div className="font-extrabold">900</div>
         </div>
         <div className="reco-cell">
             <div>To Reach Your Goal:</div>
-            <div className="font-extrabold">342.8</div>
-            <div className="font-extrabold">900.8</div>
-            <div className="font-extrabold">344.8</div>
-            <div className="font-extrabold">900</div>
+            <div className="font-extrabold">142.8</div>
+            <div className="font-extrabold">142.8</div>
+            <div className="font-extrabold text-brand">700.8</div>
+            <div className="font-extrabold">980</div>
         </div>
     </div>
 )

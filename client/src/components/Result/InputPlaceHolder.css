@@ -1,4 +1,4 @@
-div.input-placeholder {
+input.input-placeholder {
   border: 1px solid black;
   height: 35px;
   width: 35px;
@@ -6,4 +6,5 @@ div.input-placeholder {
   text-align: center;
   font-size: 13px;
   background: white;
+  margin-right: 5px;
 }
